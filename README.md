@@ -1,7 +1,8 @@
 # tidiapp
 
-Aplicativo para acesso ao sistema Tidia-Ae da UFABC, desenvolvido como projeto
-da disciplina "Programação Avançada para Dispositivos Móveis" em 2016.
+Aplicativo não-oficial para acesso ao sistema Tidia-Ae da UFABC, desenvolvido
+como projeto da disciplina "Programação Avançada para Dispositivos Móveis" em
+2016.
 
 # Recursos
 
@@ -9,7 +10,7 @@ da disciplina "Programação Avançada para Dispositivos Móveis" em 2016.
 * Download de arquivos;
 * Notificações para novos arquivos e atividades.
 
-# Política de Privacidade
+# Privacidade
 
 Este aplicativo armazena as credenciais de usuário do sistema Tidia-Ae no
 dispositivo seguramente através de funcionalidade fornecida pelo sistema
