@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_ufabc_logo">Logo da UFABC</string>
+    <string name="label_unknown">Desconhecido</string>
+    <string name="label_untitled">Sem Título</string>
+    <string name="form_password">Senha</string>
+    <string name="form_username">Usuário</string>
+    <string name="status_disabled_multiple">Desabilitadas</string>
+    <string name="status_enabled_multiple">Habilitadas</string>
+    <string name="title_assignments">Atividades</string>
+    <string name="title_description">Informações</string>
+    <string name="title_login">Login</string>
+    <string name="title_resources">Recursos</string>
+    <string name="title_sites">Sites</string>
+    <string name="action_contact_owner">Contatar responsável</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_out">Sair da conta</string>
+    <string name="prompt_select_browser">Escolha um navegador</string>
+    <string name="prompt_open_file">Abrir %s com</string>
+    <string name="prompt_send_email">Enviar email</string>
+    <string name="error_field_required">Este campo é necessário.</string>
+    <string name="error_login">Erro de autenticação, verifique suas credenciais e tente novamente.</string>
+    <string name="info_due">Encerra em %s</string>
+    <string name="toast_sync_notifications">%1$s auto-sincronização e notificações para %2$s.</string>
+    <string name="status_closed">Encerrado</string>
+    <string name="notification_new_content">Novo conteúdo</string>
+    <string name="action_mark_all_as_unread">Desmarcar todos como vistos</string>
+    <string name="action_mark_all_as_read">Marcar todos como vistos</string>
+    <string name="error_connection">Erro de conexão, verifique sua conectividade a internet e tente novamente.</string>
+    <string name="toast_downloading">Baixando…</string>
+    <string name="toast_downloading_progress">Baixando… %d%%</string>
+    <string name="action_cancel">Cancelar</string>
+</resources>

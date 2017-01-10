@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleX="2"
+    android:scaleY="2"
+    android:layout_gravity="center"
+    android:id="@+id/button_ufabc"
+    android:text="@string/ufabc"
+    android:textColor="#296249"
+    android:background="@android:color/transparent"
+    android:drawableTop="@drawable/ic_logo_ufabc"
+    tools:context=".SplashActivity" />
+

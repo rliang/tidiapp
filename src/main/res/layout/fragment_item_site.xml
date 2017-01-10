@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_medium"
+    android:orientation="horizontal"
+    android:background="?android:selectableItemBackground" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/label_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/label_untitled"
+            android:textAppearance="?android:textAppearanceListItem" />
+
+        <TextView
+            android:id="@+id/label_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/label_unknown"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceSmall" />
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/switch_syncable"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0" />
+</LinearLayout>

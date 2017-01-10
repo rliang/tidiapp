@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ufabc" translatable="false">UFABC</string>
+    <string name="app_name" translatable="false">Tidiapp</string>
+
+    <string name="title_login">Sign in</string>
+    <string name="title_sites">Sites</string>
+    <string name="title_description">Info</string>
+    <string name="title_resources">Resources</string>
+    <string name="title_assignments">Assignments</string>
+
+    <string name="form_username">Username</string>
+    <string name="form_password">Password</string>
+
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_contact_owner">Contact owner</string>
+    <string name="action_mark_all_as_unread">Unmark all as viewed</string>
+    <string name="action_mark_all_as_read">Mark all as viewed</string>
+
+    <string name="prompt_send_email">Send email</string>
+    <string name="prompt_select_browser">Choose a web browser</string>
+    <string name="prompt_open_file">Open %s with</string>
+
+    <string name="error_field_required">This field is required.</string>
+    <string name="error_login">Authentication error, please check your credentials and try again.</string>
+    <string name="error_connection">Connection error, please check your internet connectivity and try again.</string>
+
+    <string name="label_untitled">Untitled</string>
+    <string name="label_unknown">Unknown</string>
+
+    <string name="status_closed">Closed</string>
+    <string name="status_enabled_multiple">Enabled</string>
+    <string name="status_disabled_multiple">Disabled</string>
+
+    <string name="info_ufabc_logo">UFABC logo</string>
+    <string name="info_due">Due %s</string>
+
+    <string name="notification_new_content">New content</string>
+
+    <string name="toast_sync_notifications">%1$s auto-sync and notifications for %2$s.</string>
+    <string name="toast_downloading">Downloading…</string>
+    <string name="toast_downloading_progress">Downloading… %d%%</string>
+
+    <string name="transition_appbar" translatable="false">appbar</string>
+    <string name="transition_title" translatable="false">title</string>
+    <string name="database_name" translatable="false">tidiapp</string>
+    <string name="action_cancel">Cancel</string>
+</resources>

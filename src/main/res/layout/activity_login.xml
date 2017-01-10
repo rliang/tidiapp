@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/margin_large"
+    android:clipToPadding="false"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_ufabc"
+        android:text="@string/ufabc"
+        android:textColor="#296249"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_logo_ufabc" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_progress"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/form_login"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_field_username"
+            android:hint="@string/form_username"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_field_password"
+            android:hint="@string/form_password"
+            android:imeActionId="@+id/action_login"
+            android:imeActionLabel="@string/action_sign_in"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+        <Button
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:id="@+id/button_sign_in"
+            android:text="@string/action_sign_in"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
